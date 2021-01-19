@@ -1,0 +1,23 @@
+h1
+{
+    color:darkred;
+    
+}
+h2{
+    color: darkcyan;
+    
+}
+h3{
+    color: darkslategrey;
+    
+}
+img{
+    height: 300px;
+    width: 250px;
+    border-style: solid;
+    
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}

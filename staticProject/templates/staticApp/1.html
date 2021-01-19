@@ -1,0 +1,33 @@
+<html>
+    {% load static %}
+    <head>
+    <link rel="stylesheet" href="{% static "css/1.css" %}"/>
+    </head>
+    <body bgcolor='#e7f79e'>
+        <center><h1>{{Name}}'s Favourates</h1></center>
+    <div>
+        <h2>Actor:{{Actor}}</h2>
+        <h3><a href="https://en.wikipedia.org/wiki/Nani_(actor)"> click here to know more</a></h3>
+        <img src="{% static "images/1.jpg" %}">
+        </div>
+    <br>
+        <div>
+            <h2>Animal:{{Animal}}</h2>
+        <h3><a href="https://en.wikipedia.org/wiki/Labrador_Retriever">click here to know more</a></h3>
+            <img src="{% static "images/2.jpg" %}">
+        </div>
+    <br>
+        <div>
+        <h2>Subject:{{Subject}}</h2>
+            <h3><a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">click here to know more</a></h3>
+            <img src="{% static "images/3.jpg" %}">
+        </div>
+        <br>
+        <div>
+        <h2>Bird:{{Bird}}</h2>
+            <h3><a href="https://www.nationalgeographic.com/animals/birds/group/peacocks/">click here to know more</a></h3>
+            <img src="{% static "images/4.jpg" %}">
+        </div>
+    </body>
+
+</html>
